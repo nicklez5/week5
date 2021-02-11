@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+	{% for random_app in random_apps %}
+		{{ random_app.first_name }}<br>
+		{{ random_app.last_name }}<br>
+		{{ random_app.email }}<br>
+	Edit <br><br><br>
+	{% endfor %}
+</body>
+</html>
